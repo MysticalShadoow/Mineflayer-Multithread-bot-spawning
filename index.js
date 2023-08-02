@@ -9,8 +9,8 @@ const mineflayer = require('mineflayer');
 
 // Settings
 const botArgs = {
-  host: 'NubPlayzBoi.aternos.me',
-  port: 26216,
+  host: '',
+  port: ,
   version: '1.18.2'
 };
 
