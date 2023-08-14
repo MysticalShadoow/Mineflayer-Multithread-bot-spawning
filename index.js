@@ -53,9 +53,7 @@ class MCBot {
       return;
     }
 
-    // ... Rest of your event handling code ...
-
-    // Handle bot disconnection
+    
     this.bot.on('end', (reason) => {
       console.log(`[${this.username}] Disconnected: ${reason}`);
       this.reconnect();
