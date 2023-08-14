@@ -3,7 +3,7 @@ process.on('uncaughtException', (err) => {
   process.exit(1); 
 });
 
-// botWorker.js
+
 const { Worker, isMainThread, parentPort, workerData } = require('worker_threads');
 const mineflayer = require('mineflayer');
 
