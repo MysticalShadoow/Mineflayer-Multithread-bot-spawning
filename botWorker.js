@@ -1,6 +1,6 @@
 process.on('uncaughtException', (err) => {
   console.error('Unhandled error:', err.stack || err.toString());
-  process.exit(1); // Terminate the process to avoid undefined behavior
+  process.exit(1); 
 });
 
 // botWorker.js
